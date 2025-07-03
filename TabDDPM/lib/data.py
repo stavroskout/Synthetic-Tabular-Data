@@ -400,7 +400,7 @@ def transform_dataset(
     cat_transform = None
     X_num = dataset.X_num
 
-    if X_num is not None and transformations.normalization is not None:
+    if X_num is not None and transformations.normalization is not None and X_num['train'].shape[1]>0:
         X_num, num_transform = normalize(
             X_num,
             transformations.normalization,
