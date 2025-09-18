@@ -19,3 +19,6 @@ These two models have their model setup in CTGAN_Synthesizer.ipynb and tVAE_Synt
 
 # TabDDPM
 This is the original TabDDPM model found in here: https://github.com/rotot0/tab-ddpm . The TabDDPM.ipynb is an adaptation of the TabDDPM_Training_and_Extraction.ipynb notebook from the https://github.com/javiagu13/TabDDPM_easyRun/tree/main repo. It is an easy run notebook that requires the files of the folder to be uploaded in your Drive. It accesses the generated samples and automatically constructs and saves the generated dataset ready for use as 'final_df'.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
